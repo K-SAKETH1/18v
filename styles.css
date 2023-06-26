@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+*{
+    margin:0;
+    padding: 0;  
+}
+
+.transition-all {
+    transition-property: all;
+    transition-timing-function: cubic-bezier(.4,0,.2,1);
+    transition-duration: .15s;
+}
+
+.nav2{
+    background-image: url("/Images/jefferson-santos-9SoCnyQmkzI-unsplash.jpg");
+    background-size: cover;
+}
+.intro{
+    padding: 110px 0px 110px 110px;
+    font-size: 58px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
+}
+.Hello{
+    font-size: 18px;
+    margin-bottom: 12px;
+    font-weight: 200;
+}
+.aboutMe{
+    /* background-color: #1B6B93; */
+    /* background-color: rgba(29,49,44,0.9); */
+    padding: 110px 110px 110px 0px;
+}
+.mySkills{
+    /* background-color: rgba(29,49,44,0.9); */
+    color: white;
+}
+.skills{
+    display: flex;
+    justify-content: space-around;
+    padding: 80px 20px 80px 20px;
+}
+.skillCard{
+    color: black;
+    border: 2px solid #ECF8F9;
+    background-color: white;
+    padding: 5px;
+}
+.skillCard>p{
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
+    padding: 5px;
+}
+.projectCard{
+    padding: 80px 20px 80px 20px;
+}
+.projectCard1{
+   padding-top: 0px;
+   padding-bottom: 80px;
+   padding-left: 20px;
+}
+.projectCard2{
+    padding-top: 80px;
+    padding-left: 0;
+    padding-right: 20px;
+}
+.myProjectsSection{
+    /* background-color: rgba(29,49,44,0.9); */
+}
+.moreProjectsBtnDiv{
+    padding: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+.sectionFooter{
+
+}
+#footerImg{
+    text-decoration: none !important;
+    color: white !important;
+    font-family: 'Poppins', sans-serif;
+}
+#footerList{
+    color: white !important;
+}
+.namelogo{
+    text-decoration: none !important;
+    color: white;
+}
+.navList{
+    font-family: 'Poppins', sans-serif;
+}
+#navItems1{
+    color: #F97316 !important;
+}
+.navItems{
+    font-weight: 200;
+}
+.sectionFooter{
+}
+#body{
+    background-color: rgba(29,49,44,0.9);
+    font-family: 'Poppins', sans-serif;
+}
+#button1{
+    border-radius: 100px;
+    border: 1px solid white;
+    padding: 16px 40px 16px 40px;
+    font-size: 16px;
+    opacity: 1;
+    margin-right: 5px;
+}
+#button2{
+    border-radius: 100px;
+    border: 1px solid white;
+    padding: 16px 40px 16px 40px;
+    font-size: 16px;
+    opacity: 1;
+}
+.orangeText{
+    color: #F97316;
+}
+.nameColor{
+    color: #F97316;
+    padding-inline: 2px;
+}
+.footerPara{
+    font-family: 'Poppins', sans-serif;
+}
+/* Pseudo classes */
+#button1:hover{
+    background-color: #F97316;
+    font-size: 18px;
+    transition: background-color 0.3s, font-size 0.3s;
+}
+#button2:hover{
+    background-color: #F97316;
+    font-size: 18px;
+    transition: background-color 0.3s, font-size 0.3s;
+}
+.navItems:hover{
+    color: #F97316 !important;
+}
+.navItems2:hover{
+    color: #F97316 !important;
+    font-size: 22px;
+}
+.icons1:hover{
+    font-size: 22px !important;
+    transition: all ease-in-out 0.3s;
+}
+.skillCard:hover{
+    box-shadow: 8px 10px 104px -2px rgba(255,255,255,0.75);
+    -webkit-box-shadow: 8px 10px 104px -2px rgba(255,255,255,0.75);
+    -moz-box-shadow: 8px 10px 104px -2px rgba(255,255,255,0.75);
+}
+.footerIcon:hover{
+    color: #F97316 !important;
+}
